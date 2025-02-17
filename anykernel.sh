@@ -28,6 +28,9 @@ is_slot_device=0;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
 
+# Patch cmdline for MIUI
+. $bin/kyriepatch.sh;
+
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh;
 
